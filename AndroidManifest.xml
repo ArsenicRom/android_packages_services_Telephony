@@ -89,6 +89,10 @@
     <protected-broadcast android:name= "android.telephony.action.SIM_CARD_STATE_CHANGED" />
     <protected-broadcast android:name= "android.telephony.action.SIM_APPLICATION_STATE_CHANGED" />
     <protected-broadcast android:name= "android.telephony.action.SIM_SLOT_STATUS_CHANGED" />
+    <protected-broadcast android:name= "org.codeaurora.VOIP_VOPS_SSAC_STATUS" />
+    <protected-broadcast android:name= "org.codeaurora.intent.action.ACTION_UICC_MANUAL_PROVISION_STATUS_CHANGED" />
+    <protected-broadcast android:name= "org.codeaurora.intent.action.ACTION_RADIO_CAPABILITY_UPDATED" />
+    <protected-broadcast android:name= "org.codeaurora.intent.action.SUBSCRIPTION_INFO_RECORD_ADDED" />
     <protected-broadcast android:name= "android.telephony.action.SUBSCRIPTION_CARRIER_IDENTITY_CHANGED" />
 
     <uses-permission android:name="android.permission.BROADCAST_STICKY" />
